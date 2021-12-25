@@ -1,0 +1,154 @@
+.fon {
+    border: 1px solid #eee;
+    background-color: #eee;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (min-device-pixel-ratio: 1.5) {
+    html,
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+}
+
+.sky {
+    display: flex;
+}
+
+.fotka {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-evenly;
+}
+
+a {
+    text-decoration: none;
+}
+
+.card {
+    background-color: #eee;
+    margin-top: 4%;
+    width: 17%;
+    font-size: 125%;
+    text-align: center;
+}
+
+.card>a {
+    background-color: #eee;
+}
+
+.card1 {
+    margin-top: 4%;
+    width: 17%;
+    font-size: 125%;
+    text-align: center;
+}
+
+.card1>a {
+    background-color: #eee;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+.tbl {
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 600px;
+    height: auto;
+}
+
+.d {
+    height: 100px;
+}
+
+.card2 {
+    margin-top: 4%;
+    width: 17%;
+    font-size: 125%;
+    text-align: center;
+}
+
+.card2>a {
+    background-color: #eee;
+}
+
+.soz {
+    display: flex;
+    margin-top: 5%;
+}
+
+.soz1 {
+    display: block;
+}
+
+li {
+    list-style-type: none;
+}
+
+.photo {
+    margin-left: 10%;
+    align-items: center;
+    display: flex;
+}
+
+@media (max-width: 376px) {
+    .sky img {
+        width: 50%;
+        height: 180px;
+    }
+    .fotka {
+        display: block;
+    }
+    .card {
+        width: 350px;
+        margin-left: 12px;
+        height: auto;
+    }
+    .card img {
+        margin-left: 100px;
+        width: 150px;
+        height: auto;
+    }
+    .card1 {
+        width: 350px;
+        margin-left: 12px;
+        height: auto;
+    }
+    .card1 img {
+        width: 150px;
+        height: auto;
+    }
+    a {
+        display: block;
+    }
+    .card2 {
+        width: 350px;
+        margin-left: 12px;
+        height: auto;
+    }
+    .card2 img {
+        width: 150px;
+        height: auto;
+    }
+    .soz {
+        display: block;
+    }
+    .photo {
+        display: block;
+    }
+    .photo img {
+        width: 350px;
+        height: 150px;
+    }
+}

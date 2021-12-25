@@ -1,0 +1,63 @@
+.index {
+    border-radius: 5%;
+    margin-top: 100px;
+    margin-left: 350px;
+    width: 600px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.input {
+    margin-top: 30px;
+}
+
+.input2 {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.text {
+    width: 200px;
+}
+
+#in {
+    width: 200px;
+}
+
+.inp {
+    width: 404px;
+}
+
+#password {
+    margin-top: 10px;
+    width: 404px;
+}
+
+.date {
+    width: 404px;
+    margin-left: 98px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#select {
+    width: 120px;
+}
+
+.Gender {
+    display: block;
+}
+
+.gen {
+    margin-top: 20px;
+}
+
+.pol {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#button {
+    width: 250px;
+}

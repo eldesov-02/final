@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Магазин одежди</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Akronim&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style5.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+</head>
+
+<body>
+    <div class="flex-container">
+        <div class="nav">
+            <label for="toggle"> &#9776;</label>
+        </div>
+        <input type="checkbox" name="" id="toggle">
+        <div class="head">
+            <div><a href="Main page.html">Main page</a></div>
+            <div><a href="Mens clothing.html">Mens clothing</a></div>
+            <div><a href="Womens clothing.html">Womens clothing</a></div>
+            <div><a href="Baby clothes.html">Baby clothes</a></div>
+            <div><a href="accessories.html">Accessories</a></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row row-cols-3" id="rows">
+            <div class="col">
+                <div class="colum">
+                    <img id="sr1" src="https://cdn.theschoollocker.com.au/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/h/n/hn975v-bg_1.jpg" alt="" onmouseout="auystyru()" onmouseover="suretauysu()">
+                    <h1>The North Fase</h1>
+                    <h4>
+                        Jumper</h4>
+                    <div class="valute">
+                        <div>
+                            <h4 class="type">Тенге: </h4>
+                            <h4 class="value">45000
+                                <h4>
+                        </div>
+
+                        <button class="change1" id="button" onclick="changeValute0(0)">USD</button>
+                        <button class="change2" id="button" onclick="changeValute1(0)" style="display: none;">EUR</button>
+                        <button class="change3" id="button" onclick="changeValute2(0)" style="display: none;">RUB</button>
+                        <button class="change4" id="button" onclick="changeValute3(0)" style="display: none;">Тенге</button>
+
+                    </div>
+                    <hr>
+
+                    <button type="button" class="btn btn-outline-dark">КУПИТЬ</button>
+
+                </div>
+            </div>
+            <div class="col">
+                <img id="sr1" src="https://cdn1.ozone.ru/s3/multimedia-2/c1200/6065428670.jpg" alt="" onmouseout="auystyru2()" onmouseover="suretauysu2()">
+                <h1>Puma</h1>
+                <h4>
+                    Sweater</h4>
+                <div class="valute">
+                    <div class="h4">
+                        <h4 class="type">Тенге: </h4>
+                        <h4 class="value">27000
+                            <h4>
+                    </div>
+
+                    <button class="change1" onclick="changeValute0(1)">USD </button>
+                    <button class="change2" onclick="changeValute1(1)" style="display: none;">EUR</button>
+                    <button class="change3" onclick="changeValute2(1)" style="display: none;">RUB</button>
+                    <button class="change4" onclick="changeValute3(1)" style="display: none;">Тенге</button>
+
+                </div>
+                <hr>
+
+                <button type="button" class="btn btn-outline-dark">КУПИТЬ</button>
+            </div>
+            <div class="col">
+                <img id="sr1" src="https://smhttp-ssl-82554.nexcesscdn.net/pub/media/catalog/product/cache/7d0de0e5d154cd8c460c7445ad25f209/e/m/emporio_armani_jacket_72197_2.jpg" alt="" onmouseout="auystyru3()" onmouseover="suretauysu3()">
+                <h1>Emporio Armani</h1>
+                <h4>Jacket</h4>
+                <div class="valute">
+                    <div>
+                        <h4 class="type">Тенге: </h4>
+                        <h4 class="value">54000
+                            <h4>
+                    </div>
+                    <button class="change1" onclick="changeValute0(2)">USD</button>
+                    <button class="change2" onclick="changeValute1(2)" style="display: none;">EUR</button>
+                    <button class="change3" onclick="changeValute2(2)" style="display: none;">RUB</button>
+                    <button class="change4" onclick="changeValute3(2)" style="display: none;">Тенге</button>
+
+                </div>
+                <hr>
+                <button type="button" class="btn btn-outline-dark">КУПИТЬ</button>
+            </div>
+
+            <div class="col">
+                <img id="sr1" src="https://cdn-images.farfetch-contents.com/17/20/48/22/17204822_36051257_300.jpg" alt="" onmouseout="auystyru4()" onmouseover="suretauysu4()">
+                <h1>The North Fase</h1>
+                <h4>Jacket</h4>
+                <div class="valute">
+                    <div>
+                        <h4 class="type">Тенге: </h4>
+                        <h4 class="value">34650
+                            <h4>
+                    </div>
+                    <button class="change1" onclick="changeValute0(3)">USD</button>
+                    <button class="change2" onclick="changeValute1(3)" style="display: none;">EUR</button>
+                    <button class="change3" onclick="changeValute2(3)" style="display: none;">RUB</button>
+                    <button class="change4" onclick="changeValute3(3)" style="display: none;">Тенге</button>
+
+                </div>
+                <hr>
+                <button type="button" class="btn btn-outline-dark">КУПИТЬ</button>
+            </div>
+            <div class="col">
+                <img id="sr1" src="https://intertop.kz/upload/iblock/691/69184346d1692a15dc7bdc20b47197b8.jpg" alt="" onmouseout="auystyru5()" onmouseover="suretauysu5()">
+                <h1>GEOX</h1>
+                <h4>Jacket</h4>
+                <div class="valute">
+                    <div>
+                        <h4 class="type">Тенге: </h4>
+                        <h4 class="value">125100
+                            <h4>
+                    </div>
+                    <button class="change1" onclick="changeValute0(4)">USD</button>
+                    <button class="change2" onclick="changeValute1(4)" style="display: none;">EUR</button>
+                    <button class="change3" onclick="changeValute2(4)" style="display: none;">RUB</button>
+                    <button class="change4" onclick="changeValute3(4)" style="display: none;">Тенге</button>
+
+                </div>
+                <hr>
+                <button type="button" class="btn btn-outline-dark">КУПИТЬ</button>
+            </div>
+            <div class="col">
+                <img id="sr1" src="https://www.lookbuck.com/system/products/items/images/039/701/155/small/17036526_34341459_1000.jpg?1627020393" alt="" onmouseout="auystyru6()" onmouseover="suretauysu6()">
+                <h1>The North Fase</h1>
+                <h4>
+                    Sweater</h4>
+                <div class="valute">
+                    <div>
+                        <h4 class="type">Тенге: </h4>
+                        <h4 class="value">45000
+                            <h4>
+                    </div>
+                    <button class="change1" onclick="changeValute0(5)">USD</button>
+                    <button class="change2" onclick="changeValute1(5)" style="display: none;">EUR</button>
+                    <button class="change3" onclick="changeValute2(5)" style="display: none;">RUB</button>
+                    <button class="change4" onclick="changeValute3(5)" style="display: none;">Тенге</button>
+
+                </div>
+                <hr>
+                <button type="button" class="btn btn-outline-dark">КУПИТЬ</button>
+            </div>
+            <div class="col">
+                <img id="sr1" src="http://www.foroffice.ru/upload/iblock/9b4/wu620001_2_tif_1000x1000.jpg" alt="" onmouseout="auystyru7()" onmouseover="suretauysu7()">
+                <h1>The North Fase</h1>
+                <h4>
+                    Sweater</h4>
+                <div class="valute">
+                    <div>
+                        <h4 class="type">Тенге: </h4>
+                        <h4 class="value">90000
+                            <h4>
+                    </div>
+                    <button class="change1" onclick="changeValute0(6)">USD</button>
+                    <button class="change2" onclick="changeValute1(6)" style="display: none;">EUR</button>
+                    <button class="change3" onclick="changeValute2(6)" style="display: none;">RUB</button>
+                    <button class="change4" onclick="changeValute3(6)" style="display: none;">Тенге</button>
+
+                </div>
+                <hr>
+                <button type="button" class="btn btn-outline-dark">КУПИТЬ</button>
+            </div>
+            <div class="col">
+                <img id="sr1" src="https://www.lookbuck.com/system/products/items/images/034/608/376/small/16422086_31712071_1000.jpg?1614380458" alt="" onmouseout="auystyru8()" onmouseover="suretauysu8()">
+                <h1>Emporio Armani</h1>
+                <h4>Sportswear</h4>
+                <div class="valute">
+                    <div>
+                        <h4 class="type">Тенге: </h4>
+                        <h4 class="value">54000
+                            <h4>
+                    </div>
+                    <button class="change1" id="button" onclick="changeValute0(7)">USD</button>
+                    <button class="change2" onclick="changeValute1(7)" style="display: none;">EUR</button>
+                    <button class="change3" onclick="changeValute2(7)" style="display: none;">RUB</button>
+                    <button class="change4" onclick="changeValute3(7)" style="display: none;">Тенге</button>
+
+                </div>
+                <hr>
+                <button type="button" class="btn btn-outline-dark">КУПИТЬ</button>
+            </div>
+            <div class="col">
+                <img id="sr1" src="https://theroyal.kz/wp-content/uploads/2018/09/58d587586da685cb.jpg" alt="" onmouseout="auystyru9()" onmouseover="suretauysu9()">
+                <h1>The North Fase</h1>
+                <h4>
+                    Sweater</h4>
+                <div class="valute">
+                    <div>
+                        <h4 class="type">Тенге: </h4>
+                        <h4 class="value">157500
+                            <h4>
+                    </div>
+                    <button class="change1" onclick="changeValute0(8)">USD</button>
+                    <button class="change2" onclick="changeValute1(8)" style="display: none;">EUR</button>
+                    <button class="change3" onclick="changeValute2(8)" style="display: none;">RUB</button>
+                    <button class="change4" onclick="changeValute3(8)" style="display: none;">Тенге</button>
+
+                </div>
+                <hr>
+                <button type="button" class="btn btn-outline-dark">КУПИТЬ</button>
+            </div>
+        </div>
+    </div>
+    <!-- <script>
+        function suretauysu() {
+            document.getElementById("suret").src = "https://www.snowinn.com/f/1/15616/the-north-face-resolve-hyvent.jpg";
+        }
+
+        function auystyru() {
+            document.getElementById("suret").src = "https://www.armani.com/variants/images/18706561955948208/D/w400.jpg";
+        }
+
+        function suretauysu2() {
+            document.getElementById("suret2").src = "https://cms.brnstc.de/product_images/435x596/cpro/media/images/product/20/10/100103055013000_0_1603362625096.jpg";
+        }
+
+        function auystyru2() {
+            document.getElementById("suret2").src = "23.jpg";
+        }
+
+        function suretauysu3() {
+            document.getElementById("suret3").src = "19.jpg";
+        }
+
+        function auystyru3() {
+            document.getElementById("suret3").src = "20.jpg";
+        }
+
+        function suretauysu4() {
+            document.getElementById("suret4").src = "36.jpg";
+        }
+
+        function auystyru4() {
+            document.getElementById("suret4").src = "35.jpg";
+        }
+
+        function suretauysu5() {
+            document.getElementById("suret5").src = "34.jpg";
+        }
+
+        function auystyru5() {
+            document.getElementById("suret5").src = "33.jpg";
+        }
+
+        function suretauysu6() {
+            document.getElementById("suret6").src = "26.jpg";
+        }
+
+        function auystyru6() {
+            document.getElementById("suret6").src = "25.jpg";
+        }
+
+        function suretauysu7() {
+            document.getElementById("suret7").src = "32.jpg";
+        }
+
+        function auystyru7() {
+            document.getElementById("suret7").src = "31.jpg";
+        }
+
+        function suretauysu8() {
+            document.getElementById("suret8").src = "22.jpg";
+        }
+
+        function auystyru8() {
+            document.getElementById("suret8").src = "21.jpg";
+        }
+
+        function suretauysu9() {
+            document.getElementById("suret9").src = "28.jpg";
+        }
+
+        function auystyru9() {
+            document.getElementById("suret9").src = "27.jpg";
+        }
+
+        var typeList = document.getElementsByClassName("type");
+        var valueList = document.getElementsByClassName("value");
+        var changeList1 = document.getElementsByClassName("change1");
+        var changeList2 = document.getElementsByClassName("change2");
+        varchangeList3 = document.getElementsByClassName("change3");
+        var changeList4 = document.getElementsByClassName("change4");
+
+        function changeValute0(n) {
+            typeList[n].textContent = "USD";
+            valueList[n].textContent /= 450;
+            changeList1[n].style.display = "none";
+            changeList2[n].style.display = "block";
+            console.log(1);
+        }
+
+        function changeValute1(n) {
+            typeList[n].textContent = "EUR";
+            var temp = valueList[n].textContent;
+            valueList[n].textContent = temp * 450 / 500;
+            changeList2[n].style.display = "none";
+            changeList3[n].style.display = "block";
+            console.log(2);
+        }
+
+        function changeValute2(n) {
+            typeList[n].textContent = "RUB";
+            var temp = valueList[n].textContent;
+            valueList[n].textContent = temp * 500 / 5;
+            changeList3[n].style.display = "none";
+            changeList4[n].style.display = "block";
+            console.log(3);
+        }
+
+        function changeValute3(n) {
+            typeList[n].textContent = "Тенге";
+            valueList[n].textContent *= 5;
+            changeList4[n].style.display = "none";
+            changeList1[n].style.display = "block";
+            console.log(4);
+        }
+    </script> -->
+    <script>
+        var typeList = document.getElementsByClassName("type");
+        var valueList = document.getElementsByClassName("value");
+        var changeList1 = document.getElementsByClassName("change1");
+        var changeList2 = document.getElementsByClassName("change2");
+        varchangeList3 = document.getElementsByClassName("change3");
+        var changeList4 = document.getElementsByClassName("change4");
+
+        function changeValute0(n) {
+            typeList[n].textContent = "USD";
+            valueList[n].textContent /= 450;
+            changeList1[n].style.display = "none";
+            changeList2[n].style.display = "block";
+            console.log(1);
+        }
+
+        function changeValute1(n) {
+            typeList[n].textContent = "EUR";
+            var temp = valueList[n].textContent;
+            valueList[n].textContent = temp * 450 / 500;
+            changeList2[n].style.display = "none";
+            changeList3[n].style.display = "block";
+            console.log(2);
+        }
+
+        function changeValute2(n) {
+            typeList[n].textContent = "RUB";
+            var temp = valueList[n].textContent;
+            valueList[n].textContent = temp * 500 / 5;
+            changeList3[n].style.display = "none";
+            changeList4[n].style.display = "block";
+            console.log(3);
+        }
+
+        function changeValute3(n) {
+            typeList[n].textContent = "Тенге";
+            valueList[n].textContent *= 5;
+            changeList4[n].style.display = "none";
+            changeList1[n].style.display = "block";
+            console.log(4);
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,151 @@
+    .flex-container {
+        width: 100%;
+        height: 80px;
+        display: flex;
+    }
+    
+    body {
+        overflow-x: hidden;
+    }
+    
+    @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+    only screen and (-o-min-device-pixel-ratio: 3/2),
+    only screen and (min--moz-device-pixel-ratio: 1.5),
+    only screen and (min-device-pixel-ratio: 1.5) {
+        html,
+        body {
+            width: 100%;
+            overflow-x: hidden;
+        }
+    }
+    
+    .head {
+        display: flex;
+        justify-content: space-around;
+        vertical-align: middle;
+        padding: 1% 10%;
+        width: 100%;
+        height: auto;
+        background-color: rgb(0, 10, 255);
+    }
+    
+    .head a {
+        font-size: 20px;
+        color: #fff;
+        text-decoration: none;
+    }
+    
+    #toggle {
+        display: none;
+    }
+    
+    label {
+        display: none;
+    }
+    
+    #more {
+        display: none;
+    }
+    
+    .for h1 {
+        font-size: 30px;
+        text-align: center;
+        color: rgb(0, 0, 0);
+        margin-top: 30px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    
+    .for h3 {
+        font-size: 24px;
+        color: rgb(0, 0, 0);
+        margin-top: 30px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    
+    .col {
+        margin-top: 30px;
+    }
+    
+    .col img {
+        width: 250px;
+        height: 200px;
+    }
+    
+    .col h3 {
+        margin-top: 20px;
+        text-align: center;
+    }
+    
+    button {
+        text-align: center;
+        margin-top: 10px;
+        margin-left: 20px;
+        width: 80px;
+        height: 40px;
+    }
+    
+    .h4 {
+        display: flex;
+    }
+    
+    .col {
+        margin-bottom: 20px;
+    }
+    
+    .valute {
+        display: flex;
+    }
+    
+    @media (max-width:769px) {
+        .flex-container {
+            width: 100%;
+            height: auto;
+            display: flex;
+            background-color: rgb(0, 10, 255);
+        }
+        label {
+            display: block;
+            cursor: pointer;
+        }
+        .head {
+            display: block;
+            text-align: center;
+            padding-top: 10px;
+            font-size: 10px;
+        }
+        #sr1 {
+            width: 250px;
+            height: 150px;
+        }
+        #rows {
+            display: block;
+            height: auto;
+        }
+        .container {
+            display: block;
+        }
+        .col {
+            text-align: center;
+            height: 350px;
+            width: 375px;
+            display: block;
+        }
+        .head div {
+            padding: 10px 0 10px;
+        }
+        .head a {
+            font-size: 10px;
+            color: white;
+            cursor: pointer;
+        }
+        .for h1 {
+            font-size: 20px;
+            text-align: center;
+            color: rgb(0, 0, 0);
+            margin-top: 30px;
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+    }
